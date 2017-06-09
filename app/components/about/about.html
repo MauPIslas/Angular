@@ -1,0 +1,7 @@
+<div class="row" ng-repeat="persona in $ctrl.array" ng-if="persona.horario == 'tarde'">
+  <div class="card col m4">
+    <p ng-click="$ctrl.nombre(persona.nombre)">{{persona.nombre}}</p>
+    <p>{{persona.area}}</p>
+    <p>{{persona.empresa}}</p>
+  </div>
+</div>
