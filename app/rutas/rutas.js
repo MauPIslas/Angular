@@ -10,7 +10,7 @@
     .when('/absolution',{
       template: "<practica-absolution></practica-absolution>"
     })
-    .when('/muse',{
+    .when('/',{
       template: "<practica-component></practica-component>"
     })
     .when('/paramore',{

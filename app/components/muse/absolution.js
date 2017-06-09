@@ -9,7 +9,7 @@
     .component("practicaAbsolution", component)
   function componentCtrl(){
     var com = this;
-    com.variable= '0'
+    com.variable= '1'
 
     com.array = [
     {

@@ -1,4 +1,6 @@
 <a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '1'" >Pagina 1</a>
+<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '2'" >Pagina 2</a>
+<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '3'" >Pagina 3</a>
 <div ng-if="$ctrl.variable == '1'">
 <div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '1' " >
 <div class="col s12 m7">
@@ -20,7 +22,7 @@
 
 
 
-<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '2'" >Pagina 2</a>
+
 <div ng-if="$ctrl.variable == '2'">
 <div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '2' " >
 <div class="col s12 m7">
@@ -42,7 +44,6 @@
 
 
 
-<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '3'" >Pagina 3</a>
 <div ng-if="$ctrl.variable == '3'">
 <div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '3' " >
 <div class="col s12 m7">
